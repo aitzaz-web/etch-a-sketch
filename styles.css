@@ -1,0 +1,45 @@
+/* Ensures the container has a set width and height */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 672px;
+    height: 672px;
+    border: 2px solid #000;
+    margin: auto;
+    margin-top: 30px;
+   
+}
+
+
+
+.new {
+    width: 40px;  /* Width of each cell */
+    height: 40px; /* Height of each cell */
+    border: 1px solid #aaa;
+    transition: background-color 0.2s ease; 
+    image-rendering: pixelated; 
+}
+
+.new.hovered {
+    background-color: red;
+}
+
+
+
+#newGrid{
+    background-color: #3882F6; /* Blue background */
+    color: white;             /* White text color */
+    border: none;            /* Remove default border */
+    padding: 10px 20px;     /* Adjust padding for size */
+    text-align: center;     /* Center text */
+    font-size: 16px;        /* Font size */
+    border-radius: 5px;    /* Rounded corners */
+    cursor: pointer;       /* Pointer cursor on hover */
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
